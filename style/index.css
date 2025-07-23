@@ -15,6 +15,22 @@
     font-weight:500;
     color:#3A3A3A;
 }
+.card-description{
+    color:#787885;
+    max-width:196px;
+    font-weight:bold;
+    font-size:14px;
+}
+.star-color{
+    color:#FB8200;
+}
+.many{
+    font-size:24px;
+}
+.card-title{
+    font-size:28px;
+    color:#18191F;
+}
 /* header section */
 header{
     max-width:1400px;
@@ -108,5 +124,64 @@ header{
 @media screen and (max-width:678px) {
     .bannar{
         flex-direction: column;
+    }
+}
+/* Main LOgo sectin */
+.logo-link{
+    display: flex;
+    justify-content:space-around
+}
+.logo-link li{
+    list-style-type: none;
+}
+
+@media screen and (max-width:678px) {
+    .logo-link{
+        flex-direction: column;
+        align-items:center;
+    }
+}
+main{
+    border:1px solid red;
+    max-width:1200px;
+    margin:auto;
+}
+
+
+
+
+.card-img{
+    border-radius:5px;
+    width:100%;
+}
+
+
+/* main card section */
+.card-container{
+    max-width:329px;
+    height:476px;
+    border:2px solid tomato;
+    padding:17px 14px;
+}
+.card{
+    border:2px solid black;
+}
+.card .card-header{
+    color:#18191F;
+    margin-top:20px;
+   text-align:center;
+    border:1px solid skyblue;
+    
+}
+.card-pareant{
+    display:grid;
+    grid-template-columns:repeat(3 ,2fr);
+    column-gap:50px;
+    row-gap:50px;
+    margin:50px 0px;
+}
+@media screen and (max-width:678px) {
+    .card-pareant{
+        grid-template-columns: 1fr;
     }
 }
