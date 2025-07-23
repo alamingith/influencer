@@ -35,7 +35,7 @@
 header{
     max-width:1400px;
     margin:0px auto;
-    border:2px solid skyblue;
+   
 }
 .navbar{
     display:flex;
@@ -142,7 +142,7 @@ header{
     }
 }
 main{
-    border:1px solid red;
+   
     max-width:1200px;
     margin:auto;
 }
@@ -160,17 +160,17 @@ main{
 .card-container{
     max-width:329px;
     height:476px;
-    border:2px solid tomato;
+    
     padding:17px 14px;
 }
 .card{
-    border:2px solid black;
+   
 }
 .card .card-header{
     color:#18191F;
     margin-top:20px;
    text-align:center;
-    border:1px solid skyblue;
+   
     
 }
 .card-pareant{
